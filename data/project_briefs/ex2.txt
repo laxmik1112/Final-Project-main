@@ -1,0 +1,1 @@
+Our team delivered a recommendation engine for BookSphere, a client in the e-commerce industry. The project used collaborative filtering and matrix factorization techniques implemented with Apache Spark and LightFM. One of the key risks was data sparsity in user-item interaction matrices.

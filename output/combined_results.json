@@ -1,0 +1,113 @@
+[
+  {
+    "entities": [
+      {
+        "id": "john_doe",
+        "name": "John Doe",
+        "label": "Person"
+      },
+      {
+        "id": "visionai",
+        "name": "VisionAI",
+        "label": "Project",
+        "summary": "developed a deep learning model for image classification"
+      },
+      {
+        "id": "python",
+        "name": "Python",
+        "label": "Technology"
+      },
+      {
+        "id": "tensorflow",
+        "name": "TensorFlow",
+        "label": "Technology"
+      },
+      {
+        "id": "pytorch",
+        "name": "PyTorch",
+        "label": "Technology"
+      }
+    ],
+    "relationships": [
+      "john_doe|HAS_SKILLS|python",
+      "john_doe|HAS_SKILLS|tensorflow",
+      "john_doe|HAS_SKILLS|pytorch",
+      "visionai|HAS_PEOPLE|john_doe",
+      "john_doe|HAS_ROLE|visionai"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "id": "1",
+        "name": "SmartRetail",
+        "label": "Project",
+        "summary": "We developed a computer vision that helps retail clients analyze customer behavior."
+      },
+      {
+        "id": "2",
+        "name": "OpenCV",
+        "label": "Technology"
+      },
+      {
+        "id": "3",
+        "name": "YOLOv5",
+        "label": "Technology"
+      },
+      {
+        "id": "4",
+        "name": "RetailGiant Inc.",
+        "label": "Client",
+        "industry": "consumer goods"
+      },
+      {
+        "id": "5",
+        "description": "ensuring the solution complied with data privacy laws",
+        "label": "Risk"
+      }
+    ],
+    "relationships": [
+      "1|USES_TECH|2",
+      "1|USES_TECH|3",
+      "1|HAS_CLIENT|4",
+      "1|HAS_RISK|5"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "id": "1",
+        "name": "Recommendation Engine",
+        "label": "Project",
+        "summary": "Delivered a recommendation engine for BookSphere"
+      },
+      {
+        "id": "2",
+        "label": "Technology",
+        "name": "Apache Spark"
+      },
+      {
+        "id": "3",
+        "label": "Technology",
+        "name": "LightFM"
+      },
+      {
+        "id": "4",
+        "label": "Client",
+        "name": "BookSphere",
+        "industry": "e-commerce"
+      },
+      {
+        "id": "5",
+        "label": "Risk",
+        "description": "data sparsity in user-item interaction matrices"
+      }
+    ],
+    "relationships": [
+      "1|USES_TECH|2",
+      "1|USES_TECH|3",
+      "1|HAS_CLIENT|4",
+      "1|HAS_RISK|5"
+    ]
+  }
+]

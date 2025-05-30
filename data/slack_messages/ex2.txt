@@ -1,0 +1,4 @@
+#dev-updates
+Raj Patel: Just pushed the latest API changes to the main branch. Heads-up @ClaraJenkins — the user schema was refactored.
+
+ClaraJenkins: Thanks for the update!

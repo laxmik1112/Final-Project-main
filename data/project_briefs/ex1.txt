@@ -1,0 +1,1 @@
+We developed “SmartRetail”, a computer vision system that helps retail clients analyze in-store customer behavior. The client, RetailGiant Inc., operates in the consumer goods industry. The system uses OpenCV and YOLOv5 for object detection. A major challenge was ensuring the solution complied with data privacy laws.

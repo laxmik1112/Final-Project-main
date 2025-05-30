@@ -1,0 +1,1 @@
+John Doe is a senior data scientist with experience in using Python, TensorFlow, and PyTorch. He worked on a project called "VisionAI" where he developed a deep learning model for image classification. In this project, he led the model architecture design and collaborated with frontend teams.

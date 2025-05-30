@@ -1,0 +1,1 @@
+Samantha Lee, a machine learning engineer, has expertise in AWS SageMaker and Scikit-learn. She contributed to the “ChurnPredictor” project where her role was to implement and fine-tune machine learning pipelines. Her work helped reduce churn prediction error by 15%.
